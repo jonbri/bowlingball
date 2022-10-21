@@ -1,1 +1,1 @@
-export * from "./BowlingBall";
+export * from "./src/BowlingBall";
