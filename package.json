@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook --output-dir dist",
+    "build-storybook": "build-storybook -o docs-build",
     "format": "prettier . --write",
     "gh-pages": "git subtree push --prefix dist origin gh-pages"
   },

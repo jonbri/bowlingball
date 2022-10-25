@@ -1,1 +1,0 @@
-{"v":3,"stories":{"example-bowlingball--primary":{"id":"example-bowlingball--primary","title":"Example/BowlingBall","name":"Primary","importPath":"./src/stories/BowlingBall.stories.tsx"},"example-bowlingball--secondary":{"id":"example-bowlingball--secondary","title":"Example/BowlingBall","name":"Secondary","importPath":"./src/stories/BowlingBall.stories.tsx"}}}
