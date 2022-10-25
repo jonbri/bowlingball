@@ -5,7 +5,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { BowlingBall } from "../BowlingBall";
 
 export default {
-  title: "Example/BowlingBallHERE",
+  title: "Example/BowlingBall",
   component: BowlingBall,
   argTypes: {
     // backgroundColor: { control: 'color' },
@@ -28,5 +28,10 @@ Secondary.args = {
 
 export const Third = Template.bind({});
 Third.args = {
+  index: 0,
+};
+
+export const Fourth = Template.bind({});
+Fourth.args = {
   index: 0,
 };
