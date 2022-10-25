@@ -5,7 +5,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { BowlingBall } from "../BowlingBall";
 
 export default {
-  title: "Example/BowlingBall",
+  title: "Example/BowlingBallHERE",
   component: BowlingBall,
   argTypes: {
     // backgroundColor: { control: 'color' },
