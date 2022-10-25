@@ -25,3 +25,8 @@ export const Secondary = Template.bind({});
 Secondary.args = {
   index: 0,
 };
+
+export const Third = Template.bind({});
+Third.args = {
+  index: 0,
+};
