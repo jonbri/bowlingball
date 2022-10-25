@@ -30,8 +30,3 @@ export const Third = Template.bind({});
 Third.args = {
   index: 0,
 };
-
-export const Fourth = Template.bind({});
-Fourth.args = {
-  index: 0,
-};
