@@ -1,4 +1,18 @@
+import React from 'react'
+import renderer from 'react-test-renderer'
 import { assert, expect, test } from 'vitest'
+
+test('Link changes the class when hovered', () => {
+  const component = renderer.create(<div>hello</div>);
+
+//   expect(component).not.toBeNaN();
+  expect(true).toBeTruthy();
+
+  // re-rendering
+//   tree = toJson(component)
+//   expect(tree).toMatchSnapshot()
+
+})
 
 // Edit an assertion and save to see HMR in action
 
