@@ -65,7 +65,7 @@ export const BowlingBall = forwardRef<HTMLDivElement, BowlingBallProps>(
         }}
       >
         <strong>{index}</strong>
-        <div>{height}</div>
+        <span>{height}</span>
       </div>
     );
   }
