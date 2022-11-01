@@ -1,5 +1,7 @@
 .github
 .storybook
+.prettierignore
+tsconfig*
 bin
 docs
 public
