@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ORIG_FILE=src/BowlingBall.tsx
+COMPAT_DIR=compat
+COMPAT_FILE=$COMPAT_DIR/BowlingBall.tsx
+
+mkdir -p $COMPAT_DIR
+rm $COMPAT_FILE
+cp $ORIG_FILE $COMPAT_FILE
+
+sed -i '1s/^/import { createElement } from "react";\n/' $COMPAT_FILE
