@@ -7,8 +7,5 @@ mkdir -p $DIST
 cp $ORIG_FILE $DIST
 cp $ORIG_FILE $DIST/BowlingBallCompat.tsx
 
-# rm $COMPAT_FILE
-# cp $ORIG_FILE $COMPAT_FILE
-
-sed -i '1s/^/import { createElement } from "react";\n/' $DIST/BowlingBallCompat.tsx
+sed -i '1d' $DIST/BowlingBallCompat.tsx
 
