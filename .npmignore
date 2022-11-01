@@ -1,0 +1,8 @@
+.github
+.storybook
+bin
+docs
+public
+test
+index.html
+vite*
