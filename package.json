@@ -1,10 +1,12 @@
 {
   "name": "bowlingball",
-  "version": "0.0.8",
+  "version": "0.0.0",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && ./bin/compat",
+    "build": "./bin/release",
+    "build:app": "tsc && vite build && ./bin/compat",
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",

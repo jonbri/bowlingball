@@ -8,3 +8,5 @@ public
 test
 index.html
 vite*
+src/main.tsx
+src/stories

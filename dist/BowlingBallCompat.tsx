@@ -66,6 +66,7 @@ export const BowlingBall = forwardRef<HTMLDivElement, BowlingBallProps>(
         }}
       >
         <strong>{index}</strong>
+        <br />
         <span>{height}</span>
       </div>
     );

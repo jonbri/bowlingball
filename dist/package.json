@@ -1,0 +1,9 @@
+{
+  "name": "bowlingball",
+  "version": "0.0.9",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
