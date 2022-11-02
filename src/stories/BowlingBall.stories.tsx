@@ -1,7 +1,6 @@
-// test
+// change
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-
 import { BowlingBall } from "../BowlingBall";
 
 export default {
