@@ -21,8 +21,8 @@ jobs:
           npm install
       - name: build-storybook
         run: |
-          npm build-storybook
+          npm run build-storybook
       - name: serve
         run: |
-          npm serve
+          npm run serve
       - run: echo "Status ${{ job.status }}"
