@@ -13,7 +13,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook --no-dll -o build",
     "format": "prettier . --write",
-    "gh-pages": "git subtree push --prefix dist origin gh-pages"
+    "gh-pages": "git subtree push --prefix dist origin gh-pages",
+    "serve": "serve build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -35,6 +36,7 @@
     "happy-dom": "^7.6.4",
     "prettier": "^2.7.1",
     "react-test-renderer": "^18.2.0",
+    "serve": "^14.0.1",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
     "vitest": "^0.24.3"
