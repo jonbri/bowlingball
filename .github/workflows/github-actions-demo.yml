@@ -4,7 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "User: ${{ github.event_name }}"
       - run: echo "Triggered by ${{ github.event_name }} event"
       - run: echo "Running on ${{ runner.os }}"
       - run: echo "Branch: ${{ github.ref }}, Repo: ${{ github.repository }}"
