@@ -1,7 +1,7 @@
 name: bowlingball-storybook-deploy
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Deploy-Storybook:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Triggered by ${{ github.event_name }} event"
@@ -13,5 +13,7 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-          echo "hello"
+      - name: Node hello world
+        run: |
+          node -v
       - run: echo "Status ${{ job.status }}"
