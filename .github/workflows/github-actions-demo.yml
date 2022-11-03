@@ -22,4 +22,7 @@ jobs:
       - name: build-storybook
         run: |
           npm run build-storybook
+      - name: List files in docs
+        run: |
+          ls ${{ github.workspace }}/docs
       - run: echo "Status ${{ job.status }}"
